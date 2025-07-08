@@ -34,3 +34,6 @@ if st.button("Submit"):
                 st.error("Something went wrong. Try again later.")
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
+            else:
+    st.error(f"Error {response.status_code}: {response.text}")
+
