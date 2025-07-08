@@ -20,7 +20,7 @@ if st.button("Submit"):
             "Content-Type": "application/json"
         }
         payload = {
-            "model": "mistralai/mistral-7b-instruct:free"
+            "model": "openchat/openchat-7b"
             "messages": [{"role": "user", "content": user_input}]
         }
 
