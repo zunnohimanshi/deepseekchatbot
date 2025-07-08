@@ -15,7 +15,7 @@ if st.button("Submit"):
 
         url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {
-            "Authorization": "Bearer sk-or-v1-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",
+            "Authorization": "Bearer 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",
             "HTTP-Referer": "https://deepseek.com",
             "Content-Type": "application/json"
         }
